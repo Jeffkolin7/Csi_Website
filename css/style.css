@@ -1,5 +1,5 @@
 html, body{
-	background: linear-gradient(to left, #022F40, #38AECC);
+	background: linear-gradient(to left, #084a0c, #0a6c10);
 	background-repeat: no-repeat;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -91,12 +91,32 @@ html, body{
   background-color: #006600;
 }
 
-#menucount{
+#menuCount{
 	float: right;
   margin-top: 6px;
   width: 980px;
   height: 80%;
   background-color: black;
+}
+
+ul.Menuhori{
+	margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 100%;
+  cursor: default;
+  width: auto;
+
+  ul.Menuhori li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 100%;
+  position: relative;
+  text-align: left;
+  cursor: pointer;
+  width: 120px;
+  float: left;
 }
 
 #menubar1{
@@ -107,10 +127,3 @@ html, body{
   cursor: default;
   width: auto;
 }
-ul.Menuhori{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  font-size: 100%;
-  cursor: default;
-  width: auto;
