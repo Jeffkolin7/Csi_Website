@@ -15,7 +15,6 @@
   	overflow: hidden;
   	border-style: solid;
   	border-width: 1px;
-  	background: darkseagreen;
   	border-radius: 10px;
   	border: green;
   	/*box-shadow: 15px 15px 15px #005C00;*/
@@ -61,7 +60,6 @@
   }
 
   #logo img:active{
-  	background: green; /* Change background color when pressed */
     transform: scale(0.98);
   }
 
@@ -167,3 +165,17 @@
   	color: green;
   	text-shadow:2px 2px 3px green;
   }
+
+  /* Page */
+  #page{
+    width: 978px;
+    height: 945px;
+    background-color: black;
+  }
+
+  #Navigation {
+  width: 25%;
+  height: 99.3%;
+  float: left;
+  border-right: 10px double darkseagreen;
+  background-color: green;
